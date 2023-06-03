@@ -1,0 +1,36 @@
+{
+  "name": "nodes-docker-medium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node-dev server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rama41222/nodes-docker-medium.git"
+  },
+  "keywords": [
+    "nodejs",
+    "medium",
+    "sample",
+    "docker"
+  ],
+  "author": "råama41222",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rama41222/nodes-docker-medium/issues"
+  },
+  "homepage": "https://github.com/rama41222/nodes-docker-medium#readme",
+  "dependencies": {
+    "@rama41222/node-logger": "^1.0.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "node-dev": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

@@ -1,0 +1,29 @@
+.canvas-container-rect {
+    height: 400px;
+    width: 1200px;
+    border: 2px solid #000;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+.buttons {
+    text-align: center;
+}
+
+.child {
+    float: left;
+   padding: 5px;
+    
+  }
+
+@media (min-width: 600px) {
+    .buttons { grid-template-columns: 1fr 1fr 1fr }
+  }
+
+  @media (min-width: 2000px) {
+    .buttons { grid-template-columns: 1fr 1fr 1fr }
+    .canvas-container-rect {   width: 2200px;      height: 800px;}
+  }
